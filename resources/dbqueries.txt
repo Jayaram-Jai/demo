@@ -1,0 +1,10 @@
+CREATE TABLE `demo`.`user_setup` (
+  `user_Id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `user_Name` VARCHAR(45) BINARY NULL,
+  `last_Name` VARCHAR(45) NULL,
+  `user_Code` VARCHAR(45) NULL,
+  `dob` DATE NULL,
+  `mobile` VARCHAR(12) NULL,
+  `email` VARCHAR(300) NULL,
+  `gender` CHAR(1) NULL,
+  PRIMARY KEY (`user_Id`));
